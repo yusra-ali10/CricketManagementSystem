@@ -1,0 +1,16 @@
+CRICKET MANAGEMENT SYSTEM - PLAYER REPORT
+Generated: 11 Nov 2026, 18:24
+
+ID    Name               Team             Role            Matches     Runs  Wickets
+5     Saad Memon         Sindh Tigers     Batsman              60     3410        5
+1     Ali Raza           Indus Eagles     Batsman              52     2840        2
+3     Usman Tariq        Indus Eagles     All-rounder          47     1520       48
+4     Bilal Ahmed        Mehran XI        Wicket-keeper        38     1275        0
+2     Hamza Khan         Sindh Tigers     Bowler               41      500       76
+6     Faizan Ali         Mehran XI        Bowler               35      190       69
+8     Zain Malik         Mehran XI        Bowler               25      120       40
+
+Total players : 7
+Total runs    : 9855
+Total wickets : 240
+Top scorer    : Saad Memon (3410 runs)

@@ -1,48 +1,53 @@
-# Cricket Management System (Linked List)
+# 🏏 Cricket Management System
 
-**Course:** SW 212 - Data Structures & Algorithms (Open Ended Lab)
-**Group:** A (Linked List)
-**Student:** Yusra Khuhro (K25SW-004)
-**Instructor:** Engr. Asmatullah Zubair
-
-A Java Swing desktop application that manages a cricket club. All data is stored in
-**custom Singly Linked Lists**. No array or ArrayList is used to store the data.
-
-## Linked lists used
-| List | Node class | Stores |
-|---|---|---|
-| `PlayerList` | `Player` | players (CRUD, sort, top scorers, save/load) |
-| `MatchList` | `Match` | match schedule (CRUD, sort, save/load) |
-| `ActivityList` | `Activity` | latest actions shown on the dashboard |
-| `TeamList` | `TeamStat` | team statistics built from the players list |
+## Project Overview
+Cricket Management System is a Java-based desktop application designed to manage cricket teams, players, matches, and related activities through a user-friendly graphical interface.
 
 ## Features
-- Login with two roles: **Admin** (full access) and **User** (view only)
-- Dashboard: banner, summary cards, Top 5 run scorers chart, players-by-role donut chart, recent activity
-- **Players:** Create (`add`, `addAtHead`), Read (`search`, live search, role filter), Update, Delete, Sort (bubble sort), photo for every player, Export Report (`report.txt`)
-- **Matches:** full CRUD with date validation, search, sort by ID or date
-- **Teams:** live statistics (players, runs, wickets, top scorer per team)
-- Data validation, duplicate ID check, confirmation before delete
-- Data is saved to `players.csv` and `matches.csv` and loaded on start
+- User Login System
+- Dashboard
+- Player Management
+- Team Management
+- Match Management
+- Match List
+- Player List
+- Activity Tracking
+- CSV File Handling
+- User-Friendly GUI
 
-## Login
-- Admin: `admin` / `admin123`
-- User: `user` / `user123`
+## Technologies Used
+- **Programming Language:** Java
+- **GUI:** Java Swing
+- **Data Storage:** CSV Files
+- **IDE:** Visual Studio Code
 
-## Files
-| File | Purpose |
-|---|---|
-| `Player.java`, `PlayerList.java` | Node and linked list of players |
-| `Match.java`, `MatchList.java` | Node and linked list of matches |
-| `ActivityList.java`, `TeamList.java` | Activity log and team statistics lists |
-| `Store.java` | Holds the lists, loads and saves the files |
-| `LoginFrame.java`, `MainFrame.java`, `AppPanel.java` | Login window, main window, sidebar |
-| `DashboardPage.java`, `PlayersPage.java`, `MatchesPage.java`, `TeamsPage.java` | The four pages |
-| `Theme.java`, `Imgs.java` | Colours, helpers, pictures |
-| `Main.java` | Starts the program |
-| `images/`, `photos/` | App pictures and player photos |
+## Project Structure
+- `Main.java` – Application entry point
+- `LoginFrame.java` – Login interface
+- `DashboardPage.java` – Main dashboard
+- `PlayersPage.java` – Player management
+- `TeamsPage.java` – Team management
+- `MatchesPage.java` – Match management
+- `ActivityList.java` – Activity tracking
+- `images/` – Application images and icons
+- `photos/` – Player photos
+- `players.csv` – Player data
+- `matches.csv` – Match data
 
 ## How to Run
-1. Install JDK and VS Code with the Extension Pack for Java
-2. Open this folder in VS Code
-3. Open `Main.java` and click **Run**
+1. Clone or download this repository.
+2. Open the project folder in Visual Studio Code.
+3. Make sure Java JDK is installed.
+4. Open `Main.java`.
+5. Run the application.
+
+## Repository
+GitHub: https://github.com/yusra-ali10/CricketManagementSystem
+
+## Developer
+**Yusra Khuhro**
+
+Software Engineering Student
+
+## License
+This project is developed for educational purposes.
